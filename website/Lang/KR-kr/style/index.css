@@ -1,0 +1,115 @@
+.lan{
+    width: 1410px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.about{
+    width: 100px;
+    height: 50px;
+    margin-top: -38px;
+    margin-left: 1330px;
+    margin-bottom: 13px;
+    font-size: 30px;
+}
+
+a:link,a:visited{
+
+    text-decoration:none;  /*超链接无下划线*/
+   
+   }
+   
+   a:hover{
+   
+    text-decoration:underline;  /*鼠标放上去有下划线*/
+   
+   }
+
+.bili{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/bilibili.png");
+    outline: none;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.google{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/7-201025234IY51_80x81.png");
+    outline: none;
+    transform: translate(500px,-81px);
+
+}
+
+.github{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/github_81x80.png");
+    outline: none;
+    transform: translate(800px,-165px);
+}
+
+.tim{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/time_81x87.png");
+    outline: none;
+    transform: translate(1090px,-249px);
+}
+
+.runoob{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/OIP-C_81x81.jpg");
+    outline: none;
+    transform: translate(350px,-100px);
+}
+
+.mobai{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/202251892255902microsoft.png");
+    outline: none;
+    transform: translate(660px,-180px);
+}
+
+.gitee{
+    height: 81px;
+    width: 81px;
+    border-radius: 11px;
+    background: #e0e0e0;
+    box-shadow:  8px 8px 16px #6e6e6e,
+             -8px -8px 16px #ffffff;
+             background-image: url("./img/2022518102723378gitee.png");
+    outline: none;
+    transform: translate(950px,-263px);
+}

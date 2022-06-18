@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="icon" href="./img/webico.ico" type="image/x-icon">
+    <title>Frish2021的导航</title>
+</head>
+<body background="img/background1.jpeg">
+    <script src="../../../config.js"></script>
+    <script src="js/title.js"></script>
+    <div class="lan">
+        <span id="myfont">导航</span>
+        <script>
+            document.getElementById('myfont').innerHTML = webtext;
+        </script>
+        <div class="about">
+            <a href="subwebsite/about.html">关于</a>
+        </div>
+    </div>
+    <style>
+        .bing{
+            width: 1338px;
+            height: 40px;
+            transform: translate(-0px,-10px);
+        }
+
+       .button{
+            width: 57px;
+            height: 46px;
+            transform: translate(-0px,9px);
+        }
+        
+    </style>
+            <form action="https://cn.bing.com/search" target="_self" method="get">
+                <input type="text" class="bing" name="q" style="border: transparent;" placeholder="请输入要搜索的内容：" autofocus>
+                <input type="submit" class="button" value="">
+            </form>
+            
+            <form action="https://www.bilibili.com" style="border: none;" target="_self">
+                <button value="" class="bili" ></button>
+            </form>
+
+            <form action="https://translate.google.cn/" style="border: none;" target="_self">
+                <button value="" class="google" ></button>
+            </form>
+
+            <form action="https://www.github.com" style="border: none;" target="_self">
+                <button value="" class="github" ></button>
+            </form>
+
+            <form action="https://tim.qq.com/" style="border: none;" target="_self">
+                <button value="" class="tim" ></button>
+            </form>
+
+            <form action="https://www.runoob.com/" style="border: none;" target="_self">
+                <button value="" class="runoob" ></button>
+            </form>
+
+            <form action="https://www.microsoft.com/" style="border: none;" target="_self">
+                <button value="" class="mobai" ></button>
+            </form>
+
+            <form action="https://gitee.com/" style="border: none;" target="_self">
+                <button value="" class="gitee" ></button>
+            </form>
+
+</body>
+</html>
